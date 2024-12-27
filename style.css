@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+    font-family: "Afacad Flux", serif;
+}
+
+
+/* ********************************** Header Style Strts From Here *********************************** */
+
+/* #header{
+    display: flex;
+} */
+#header .navbar ul {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    gap: 38px;
+    text-transform: capitalize;  
+    font-size: 40px;
+    list-style: none;
+    position: fixed;
+}
+#header .navbar ul li a{
+    text-decoration:none;  
+}
+
+#header nav ul {
+    color: black;
+}
+#header{
+    /* position: fixed; */
+    height: 20px;
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+}
+
+.moso_yellow{
+    color: #faf61cfa;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.Inter_red{
+    color: red;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.ior_green{
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#header #navbar ul li:hover{
+
+background-color:#faf61cfa ;
+height: 50px;
+}
+
+/*********************************** hearder style ends here ***********************************************/
+
+
+/* ******************* Main section starts from here************************* */
+#backimg{
+    height: 100vh;
+    width: 1800px;
+    background-image:url(bg.2.jpg);
+    background-image: center;
+}
+
+ #backimg .text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#backimg .text-box h3{
+    color: rgb(7, 175, 105);
+    font-size: 30px;
+    font-variant: inherit;
+}
+#backimg .text-box h1{
+    color: white;
+    text-shadow: 40px;
+    font-size: 70px;
+}
+
+ /* *************************** page 2 styling****************************** */
+ #page2 .maindiv{
+
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: aliceblue;
+ }
+ #page2 .maindiv h3{
+    top: 30px;
+ }
+    #page2 .maindiv .div1{
+    width: 600px;
+    height: 600px;
+    
+    }
+    #page2 .maindiv .div2{
+        width: 300px;
+        height: 300px;
+        /* border: 1px solid black; */
+        background-image: url(page2\ img2.jpg);
+        background-size:cover;
+        border-radius: 50%;
+        }
+    #page2 .maindiv .p2{
+        font-weight: 300;
+    }
+    #page2 .maindiv .div3{
+        width: 450px;
+        height: 450px;
+        /* border: 1px solid black;  */
+        background-image: url(page2\ img\ 1.jpg); 
+        background-size: cover;
+        border-radius: 50%;
+     }
+     #page2 .maindiv h3{
+        color: rgb(11, 179, 142);
+        font-size: 20px;
+     }
+     #page2 .maindiv .p1{
+        font-size: 40px;
+        font-style: oblique;
+        font-weight: 600;
+     }
+
+     #page2 .maindiv .p2{
+     font-size: 40px;
+     }
+
+     #page2 .maindiv .p3{
+        font-size: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+/* **********************page 2 coding ends here************************** */
+
+/* **********************footer coding starts from here ********************* */
+#last .lastdiv{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; */
+} 
+#last .lastdiv .area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    background-color: black;
+}
+/* ********  class creative1 styling   ******** */
+#last .lastdiv .area .creative1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    color: white;
+    gap: 5px;
+}
+#last .lastdiv .area .creative1 h1{
+    font-size: 45px;
+}
+#last .lastdiv .area .creative1 p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+/* ******end******* */
+
+/************** class creative2 styling  *********/
+
+#last .lastdiv .area .creative2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    color: white;
+    gap: 5px;
+}
+#last .lastdiv .area .creative2 h1{
+    font-size: 45px;
+}
+#last .lastdiv .area .creative2 p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* ************* end ********** */
+
+/* *********** class creative3 styling *************** */
+#last .lastdiv .area .creative3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    color: white;
+    gap: 5px;
+}
+#last .lastdiv .area .creative3 h1{
+
+    font-size: 45px;
+}
+/* ***********end ***********/
+
+/* ******* class creatve4 styling ************ */
+#last .lastdiv .area .creative4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    color: white;
+    gap: 5px;
+}
+#last .lastdiv .area .creative4 h1{
+    font-size: 45px;
+}
+
+/* ********************* footer coding  ends here************************** */
